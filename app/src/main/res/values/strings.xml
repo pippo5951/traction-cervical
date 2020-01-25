@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Trazione Cervicale</string>
+    <string name="navigation_drawer_open">Apri navigation drawer</string>
+    <string name="navigation_drawer_close">Chiudi navigation drawer</string>
+    <string name="nav_header_title">Giuseppe Botta</string>
+    <string name="nav_header_subtitle">Trazione collonna cervicale</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Reset App</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">A cosa serve la trazione cervicale</string>
+    <string name="menu_slideshow">Controindicazioni</string>
+    <string name="menu_tools">Quale set scegliere</string>
+    <string name="menu_share">Come funziona la trazione</string>
+    <string name="menu_send">Chi può usare la trazione</string>
+    <string name="menu_come">Come eseguire la trazione cervicale</string>
+    <string name="inizio">Inizio trazione</string>
+
+    <string name="a_cosa_serve">A cosa serve </string>
+    <string name="controindicazioni"> Controindicazioni </string>
+    <string name="quale_scegliere">La scelta dell\'attrezzo </string>
+    <string name="come_funziona"> Funzionamento </string>
+    <string name="chi_puo_usare"> Chi la può usare </string>
+    <string name="come_eseguire"> Esecuzione della trazione</string>
+    <string name="help">HELP - AIUTO </string>
+    <string name="showImage">Carrellata di immagini</string>
+    <string name="titolo">Inizia la tua trazione</string>
+    <string name="infomazione">Ti ricodo che la trazione comprende:\nuno step di 2min seguita da una pausa di 30sec\n
+    con un totale di 7 step di 2min e 6 pause di 30sec\n TOTALE TEMPO TRAZIONE 14 minuti.\nTOTALE TEMPO PAUSA 180 secondi.
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
+

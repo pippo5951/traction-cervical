@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_Incremento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Tempo Incrementale 00:00"
+            android:textColor="@color/colorOrange"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+
+
+        <TextView
+            android:id="@+id/tv_CountDown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Tempo decrescente 00:00"
+            android:textColor="@color/colorVerde"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_Parziale"
+            android:fontFamily="casual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Secondi rimanenti...000"
+            android:textColor="@color/colorBottoni"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/tv_Step"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="info"
+            android:background="@color/colorBottoni"
+            android:textColor="#000"
+            android:textSize="30dp"
+            android:fontFamily="cursive"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/infomazione"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:textColor="@color/colorBottoni"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_dati"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titolo"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:textColor="@color/colorInfo"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:onClick="iniziaAllenamento"
+            android:id="@+id/bt_Start"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/colorBottoni"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bottone"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="Start"
+            tools:ignore="OnClick" />
+        <Button
+            android:id="@+id/bt_annulla"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/colorBottoni"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bottone"
+            android:layout_width="120dp"
+            android:layout_height="100dp"
+            android:text="Exit"/>
+
+    </LinearLayout>
+</LinearLayout>
